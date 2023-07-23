@@ -1,16 +1,12 @@
-//to implement exception handling methods
-
-package javalab;
-
 import java.util.*;
-public class employeeId
+public class employee
 {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
 		
-		int empID[]= {1001,1002,1003,1004,1005};
-		String[] empname= {"Karthik","Sushanth","Rohan","Sharan","Skhanda"};
+		int empID[]= {1,2,3,4,5};
+	String[] empname= {"Prakruti","Saanvi","Sameeksha","Sonakshi","Deeksha"};
 		String[] date= {"01/01/2003","11/02/2004","19/03/2003","20/5/2003","07/07/2003"};
 		char empcode[]= {'m','c','e','r','k'};
 		String dept[]= {"Engg","PM","R&d","Front desk","acct"};
